@@ -4,20 +4,20 @@ English | [简体中文](./README.zh-CN.md)
 
 <div align="center">
 
-[![NPM version](https://img.shields.io/npm/v/@ant-design-vue/pro-layout/latest?style=flat)](https://npmjs.org/package/@ant-design-vue/pro-layout) [![Vue Support](https://img.shields.io/badge/support-Vue2-green?style=flat)](./package.json) [![NPM downloads](http://img.shields.io/npm/dm/@ant-design-vue/pro-layout.svg?style=flat)](https://npmjs.org/package/@ant-design-vue/pro-layout) [![License](https://img.shields.io/github/license/vueComponent/pro-layout)](./LICENSE)
+[![NPM version](https://img.shields.io/npm/v/pro-layout-vite/latest?style=flat)](https://npmjs.org/package/pro-layout-vite) [![Vue Support](https://img.shields.io/badge/support-Vue2-green?style=flat)](./package.json) [![NPM downloads](http://img.shields.io/npm/dm/pro-layout-vite.svg?style=flat)](https://npmjs.org/package/pro-layout-vite) [![License](https://img.shields.io/github/license/vueComponent/pro-layout)](./LICENSE)
 
 </div>
 
 ## Usage
 
 ```bash
-npm i @ant-design-vue/pro-layout --save
+npm i pro-layout-vite --save
 // or
-yarn add @ant-design-vue/pro-layout
+yarn add pro-layout-vite
 ```
 
 ```jsx
-import ProLayout from '@ant-design-vue/pro-layout'
+import ProLayout from 'pro-layout-vite'
 
 // by jsx
 export default {
@@ -68,7 +68,7 @@ export default {
 <script>
 
 // by template
-import ProLayout, { SettingDrawer } from '@ant-design-vue/pro-layout'
+import ProLayout, { SettingDrawer } from 'pro-layout-vite'
 import { asyncRouterMap } from '../config/router.config'
 
 export default {
